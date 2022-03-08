@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 100%;
+    text-transform: uppercase;
+}
 /* Cose uguali tra le sezioni */
 .shoes-container{
     width: 100%;
@@ -13,10 +18,25 @@
 }
 /* Content  */
 .content{
+    /* Centrale */
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
+    /*il resto*/
+
+    text-align: center;
+}
+/* Testo */
+.content h2{
+    /* Per un minimo di responsività verso il mobile o schermi sottili */
+    font-size: 3vw;
+    
+}
+/* Immagine */
+.content img{
+    /* Per un minimo di responsività verso il mobile o schermi sottili */
+    max-width: 100vw;
 }
 /* Differenze tra le sezioni */
 #one{
@@ -29,3 +49,5 @@
     background-color: yellow;
     color: green;
 }
+
+
