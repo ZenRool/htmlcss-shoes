@@ -8,6 +8,30 @@ html{
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 100%;
     text-transform: uppercase;
+    scroll-behavior: smooth;
+}
+/* Nav  */
+nav{
+    position: fixed;
+    z-index: 10;
+    top: 1.5em;
+    right: 1em;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    display: inline-block;
+    color:black;
+    background-color: aliceblue;
+    width: 2.5vw;
+    height: 2.5vw;
+    font-size: 1.25vw;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2.5vw;
 }
 /* Cose uguali tra le sezioni */
 .shoes-container{
