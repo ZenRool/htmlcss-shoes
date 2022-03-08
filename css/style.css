@@ -69,7 +69,7 @@ section{
 .content img{
     /* Per un minimo di responsività verso il mobile o schermi sottili */
     max-width: 100vw;
-    max-height: 533px;
+    max-height: 55vh;
 }
 /* Differenze tra le sezioni */
 #one{
