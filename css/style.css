@@ -60,13 +60,16 @@ section{
 /* Testo */
 .content h2{
     /* Per un minimo di responsività verso il mobile o schermi sottili */
-    font-size: 3vw;
+    font-size: 3.5vw;
+    
+    white-space:normal;
     
 }
 /* Immagine */
 .content img{
     /* Per un minimo di responsività verso il mobile o schermi sottili */
     max-width: 100vw;
+    max-height: 533px;
 }
 /* Differenze tra le sezioni */
 #one{
@@ -79,28 +82,35 @@ section{
     background-color: yellow;
     color: green;
 }
+#four{
+    background-color: blue;
+}
 
 
 /* Cose in più */
 /* se il vado hover su un link cambia bgcolor della pagina linkata e combia il colore del testo*/
-a[href="#one"]:hover{
+li a[href="#one"]:hover{
     background-color: red;
     color: yellow;
 }
-a[href="#two"]:hover{
+li a[href="#two"]:hover{
     background-color: green;
     color: yellow;
 }
-a[href="#three"]:hover{
+li a[href="#three"]:hover{
     background-color: yellow;
     color: green;
 }
-a:active{
+li a[href="#four"]:hover{
+    background-color: blue;
+    color: yellow;
+}
+li a:active{
     border:2px solid orange;
 }
 /* immagine che diventa più grande quando ci passi sopra */
 .content img:hover{
-    width: 80vw;
+    width: 85vw;
     min-width: 550px;
     height: auto;
     position: absolute;
@@ -109,13 +119,14 @@ a:active{
     z-index: 2;
     transform: translate(-50%,-50%);
     cursor: pointer; 
+    max-height: none;
 }
 
 .content div{
     position: relative;
-    width: 100%;
+    display: inline-block;
 }
 /* per non far evidenziare un testo */
-.noselect {
+.noselect , img {
     user-select: none;
 }
