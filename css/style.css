@@ -115,3 +115,7 @@ a:active{
     position: relative;
     width: 100%;
 }
+/* per non far evidenziare un testo */
+.noselect {
+    user-select: none;
+}
