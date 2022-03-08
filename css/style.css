@@ -4,12 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Cose uguali tra le sezioni */
 .shoes-container{
     width: 100%;
     height: 100vh;
     position: relative;
     color: yellow;   
 }
+/* Content  */
+.content{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+/* Differenze tra le sezioni */
 #one{
     background-color: red;
 }
