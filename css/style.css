@@ -75,3 +75,17 @@ nav ul li a{
 }
 
 
+/* Cose in più */
+/* se il vado hover su un link cambia bgcolor della pagina linkata e combia il colore del testo*/
+a[href="#one"]:hover{
+    background-color: red;
+    color: yellow;
+}
+a[href="#two"]:hover{
+    background-color: green;
+    color: yellow;
+}
+a[href="#three"]:hover{
+    background-color: yellow;
+    color: green;
+}
